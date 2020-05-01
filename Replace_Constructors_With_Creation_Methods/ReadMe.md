@@ -1,4 +1,4 @@
------- Motivation ------ 
+------ Replace Constructors With Creation Methods : Motivation ------ 
 
  -- If you have multiple constructors, programmers will have to choose which constructor to call by studying the expected parameters and/or poking around at the constructor code
  -- Constructors simply don’t communicate intention efficiently or effectively. 

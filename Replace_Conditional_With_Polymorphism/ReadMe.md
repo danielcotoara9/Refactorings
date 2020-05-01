@@ -1,4 +1,4 @@
------- Motivation ------ 
+------ Replace Conditional With Polymorphism : Motivation ------ 
 
 This refactoring technique can help if your code contains operators performing various tasks that vary based on:
 
