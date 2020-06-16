@@ -19,6 +19,8 @@ namespace Replace_Conditional_With_Polymorphism.Before
         {
             if (MotorPower >= 1.8)
             {
+                // Multiple if checks
+                // Signs that OCP (Open Closed Principle from SOLID) is not respected here :)
                 // switch = if else 
                 switch (Type)
                 {
@@ -29,7 +31,7 @@ namespace Replace_Conditional_With_Polymorphism.Before
                         if (MotorPower >= 2.0 && MotorPower < 2.5)
                             return GetBaseSpeed() + GetBaseBoost();
 
-                        // maybe more ifs here
+                        // maybe more ifs here 
 
                         return GetHighSpeed();
 

@@ -13,6 +13,8 @@ namespace Replace_Conditional_With_Polymorphism.After.Concrete
 
         public override double GetSpeed()
         {
+            // Multiple if checks
+            // Signs that OCP (Open Closed Principle from SOLID) is not respected here :)
             if (MotorPower < 1.8)
                 return GetBaseSmallSpeed();
 
